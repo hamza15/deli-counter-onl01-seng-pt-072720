@@ -4,20 +4,7 @@ def line(katz_deli)
   if katz_deli.size < 1
     puts "The line is currently empty."
   else
-    print "The line is currently: "
-    katz_deli.each_with_index do |name, index|
-      index += 1
-      print "#{index}. #{name} "
-    end
-    print "\n"
-  end
-end
-
-def line(katz_deli)
-  if katz_deli.size < 1
-    puts "The line is currently empty."
-  else
-    
+    puts "This line is currently: #{katz_deli.length}. #{katz_deli}"
   end
 end
 

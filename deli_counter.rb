@@ -26,6 +26,8 @@ def now_serving(katz_deli)
   else
     name = katz_deli.shift
     puts "Currently serving #{name}"
+  end
+end
   
 
 katz_deli = ["Ada", "Grace", "Kent"]

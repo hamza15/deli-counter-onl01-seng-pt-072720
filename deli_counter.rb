@@ -7,9 +7,10 @@ def line(katz_deli)
     new_arry = []
     counter = 0 
     while counter < katz_deli.length
-      katz_deli.each_with_index do |name, index|
+      new_arry.append("counter+1 katz_deli[counter]") do |name, index|
       person = katz_deli.pop
       new_arry.append("#{index}")}
+      counter += 1 
   end
 end
 

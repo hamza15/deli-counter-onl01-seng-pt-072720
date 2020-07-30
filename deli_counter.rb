@@ -22,7 +22,9 @@ end
 
 def now_serving(katz_deli)
   if katz_deli.size < 1
-    puts ""
+    puts "There is nobody waiting to be served!"
+  else
+    katz_deli.shift
   
 
 katz_deli = ["Ada", "Grace", "Kent"]

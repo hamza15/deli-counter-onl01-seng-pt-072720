@@ -34,3 +34,4 @@ katz_deli = ["Ada", "Grace", "Kent"]
 
 line(katz_deli)
 take_a_number(katz_deli, "Hamza")
+now_serving(katz_deli)

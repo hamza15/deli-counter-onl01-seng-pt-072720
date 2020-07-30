@@ -13,6 +13,14 @@ def line(katz_deli)
   end
 end
 
+def line(katz_deli)
+  if katz_deli.size < 1
+    puts "The line is currently empty."
+  else
+    
+  end
+end
+
 def take_a_number(katz_deli, name)
   katz_deli << name
   final = katz_deli.size

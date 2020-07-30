@@ -19,6 +19,10 @@ def take_a_number(katz_deli, name)
   puts "Welcome, #{name}. You are number #{final} in line."
   
 end
+
+def now_serving(katz_deli)
+  if katz_deli.size < 1
+    puts ""
   
 
 katz_deli = ["Ada", "Grace", "Kent"]
